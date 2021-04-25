@@ -17,7 +17,6 @@ body {
 h1 {
   font-size: 24px;
   margin: 0;
-  display: inline;
   font-weight: normal
 }
 .navbar a {
