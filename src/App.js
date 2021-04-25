@@ -4,6 +4,7 @@ import Tasks from './Tasks';
 import React, { useState } from 'react';
 import GroceryList from './GroceryList';
 import Filter from './Filter';
+import PageTitle from './PageTitle';
 
 function App() {
 
@@ -49,6 +50,8 @@ function App() {
 
         <Filter />
         <hr/>
+
+        <PageTitle />
       </div>
     </div>
   );

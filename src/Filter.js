@@ -37,8 +37,8 @@ const Filter = () => {
       {tags.map(tag => <button name={tag} onClick={handleClickTag}>{tag}</button>)}
 
       <br/>
+      <h5><strong>{activeTags.join(" ")}</strong></h5>
       <ul>
-        {activeTags}
         {projects.map((project, index) => {
         console.log(isActive(project.tags));
           return (
