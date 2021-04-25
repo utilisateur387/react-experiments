@@ -3,6 +3,7 @@ import Greetings from './Greetings';
 import Tasks from './Tasks';
 import React, { useState } from 'react';
 import GroceryList from './GroceryList';
+import Filter from './Filter';
 
 function App() {
 
@@ -44,6 +45,9 @@ function App() {
         <hr/>
 
         <GroceryList />
+        <hr/>
+
+        <Filter />
         <hr/>
       </div>
     </div>
