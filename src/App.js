@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import GroceryList from './GroceryList';
 import Filter from './Filter';
 import PageTitle from './PageTitle';
+import ClickCount from './ClickCount';
 
 function App() {
 
@@ -52,6 +53,9 @@ function App() {
         <hr/>
 
         <PageTitle />
+        <hr/>
+
+        <ClickCount />
       </div>
     </div>
   );
