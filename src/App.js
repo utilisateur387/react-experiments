@@ -32,7 +32,7 @@ function App() {
         <hr />
 
         <h1>Color Picker</h1>
-        {colors.map((color) => <button onClick={() => setColor(color)}>{color}</button> )}
+        {colors.map((myColor) => <button onClick={() => setColor(myColor)}>{myColor}</button> )}
         <hr/>
 
         <h1>Log events and arguments</h1>
