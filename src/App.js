@@ -6,6 +6,7 @@ import GroceryList from './GroceryList';
 import Filter from './Filter';
 import PageTitle from './PageTitle';
 import ClickCount from './ClickCount';
+import Blogs from './Blogs';
 
 function App() {
 
@@ -56,6 +57,9 @@ function App() {
         <hr/>
 
         <ClickCount />
+        <hr />
+
+        <Blogs />
       </div>
     </div>
   );
